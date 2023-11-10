@@ -7,17 +7,17 @@
     <meta name="viewport" content="Width=device-width, initial-scale=1.0">
     <title>Sanskar Gupta - Music Player</title>
     <!-- linking the css file -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/CSS/index.css">
 
     <!-- use the below to use font-awesome icons -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/acf3eaf7bf.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="main-container">
+    <div class="music-player-container">
         <header class="header">
             <div class="logo">
-                <img src="logo.png" />
+                <img src="./assets/Images/header/logo.png" />
                 <p class="fav">Favourites</p>
             </div>
             <div class="searchbox-container">
@@ -27,13 +27,13 @@
                     <i class="fas fa-microphone"></i>
                 </div>
                 <i class="fas bell fa-bell"></i>
-                <img class="profile-photo" src="assets/images/profilepic.jpg" />
+                <img class="profile-photo" src="./assets/Images/header/ProfilePhoto.jpg" />
             </div>
         </header>
 
         <div class="for-responsiveness">
             <main>
-                <div class="carousel">
+                <div class="Latest-song">
                 <div id="slider">
                     <input type="radio" name="slider" id="s1" checked>
                     <input type="radio" name="slider" id="s2">
@@ -41,11 +41,11 @@
                     <input type="radio" name="slider" id="s4">
                     <input type="radio" name="slider" id="s5">
             
-                    <label for="s1" id="slide1"><img src="assets/carousel/img1.jpg" alt=""></label>
-                    <label for="s2" id="slide2"><img src="assets/carousel/img2.jpg" alt=""></label>
-                    <label for="s3" id="slide3"><img src="assets/carousel/img3.jpg" alt=""></label>
-                    <label for="s4" id="slide4"><img src="assets/carousel/img4.webp" alt=""></label>
-                    <label for="s5" id="slide5"><img src="assets/carousel/img5.png" alt=""></label>
+                    <label for="s1" id="slide1"><img src="assets/Images/Latest_Section/LS3.jpg" alt=""></label>
+                    <label for="s2" id="slide2"><img src="assets/Images/Latest_Section/ls4.jpg" alt=""></label>
+                    <label for="s3" id="slide3"><img src="assets/Images/Latest_Section/ls5.jpg" alt=""></label>
+                    <label for="s4" id="slide4"><img src="assets/Images/Latest_Section/Let_her_go.jpg" alt=""></label>
+                    <label for="s5" id="slide5"><img src="assets/Images/Latest_Section/Savage-Song.webp" alt=""></label>
                 </div>
             </div>
 
@@ -70,7 +70,7 @@
                             <div class="song-image-container">
                                 <p class="queue-number">01</p>
                                 <div class="image-container">
-                                    <img class="queue-song-img" src="assets/queue/kissmemore.jpg" />
+                                    <img class="queue-song-img" src="assets/Images/Queue_Section/Queue-1.jpg" />
                                     <i class="fas play-btn fa-play"></i>
                                 </div>
                                 <div class="song-and-artist-container">
@@ -87,10 +87,9 @@
                             <div class="song-image-container">
                                 <i class="fas currently-on-song fa-stream"></i>
                                 
-                                <!-- <img src="assets/css/Free_Download_Cool_Audio_Reacting_Spectrum_After_Effects_CC.mp4"> -->
                                 <div class="image-container">
 
-                                    <img class="queue-song-img" src="assets/queue/peaches.jpg" />
+                                    <img class="queue-song-img" src="assets/Images/Queue_Section/Queue-2.jpg" />
                                 
                                     <i class="fas play-btn fa-play"></i>
                                 </div>
@@ -108,7 +107,7 @@
                             <div class="song-image-container">
                                 <p class="queue-number">03</p>
                                 <div class="image-container">
-                                    <img class="queue-song-img" src="assets/queue/7rings.jpg" />
+                                    <img class="queue-song-img" src="assets/Images/Queue_Section/Queue-3.jpg" />
                                     <i class="fas play-btn fa-play"></i>
                                 </div>
                                 <div class="song-and-artist-container">
@@ -125,7 +124,7 @@
                             <div class="song-image-container">
                                 <p class="queue-number">04</p>
                                 <div class="image-container">
-                                    <img class="queue-song-img" src="assets/queue/attention.jpg" />
+                                    <img class="queue-song-img" src="assets/Images/Queue_Section/Queue-4.jpg" />
                                     <i class="fas play-btn fa-play"></i>
                                 </div>
                                 <div class="song-and-artist-container">
@@ -142,12 +141,12 @@
                             <div class="song-image-container">
                                 <p class="queue-number">05</p>
                                 <div class="image-container">
-                                    <img class="queue-song-img" src="assets/queue/good4u.jpg" />
+                                    <img class="queue-song-img" src="assets/Images/Queue_Section/Queue-5.jpg" />
                                     <i class="fas play-btn fa-play"></i>
                                 </div>
                                 <div class="song-and-artist-container">
                                     <p class="queue-song-name">Good 4 U</p>
-                                    <p class="queue-artist-name">Olivia Rodrigo/p>
+                                    <p class="queue-artist-name">Olivia Rodrigo</p>
                                 </div>
                             </div>
 
@@ -159,7 +158,7 @@
                             <div class="song-image-container">
                                 <p class="queue-number">06</p>
                                 <div class="image-container">
-                                    <img class="queue-song-img" src="assets/queue/sugar.jpg" />
+                                    <img class="queue-song-img" src="assets/Images/Queue_Section/Queue-6.jpg" />
                                     <i class="fas play-btn fa-play"></i>
                                 </div>
                                 <div class="song-and-artist-container">
@@ -176,7 +175,7 @@
                             <div class="song-image-container">
                                 <p class="queue-number">07</p>
                                 <div class="image-container">
-                                    <img class="queue-song-img" src="assets/queue/taylorswift.jpg" />
+                                    <img class="queue-song-img" src="assets/Images/Queue_Section/Queue-7.jpg" />
                                     <i class="fas play-btn fa-play"></i>
                                 </div>
                                 <div class="song-and-artist-container">
@@ -193,7 +192,7 @@
                             <div class="song-image-container">
                                 <p class="queue-number">08</p>
                                 <div class="image-container">
-                                    <img class="queue-song-img" src="assets/queue/we'regood.jpg" />
+                                    <img class="queue-song-img" src="assets/Images/Queue_Section/Queue-8.jpg" />
                                     <i class="fas play-btn fa-play"></i>
                                 </div>
                                 <div class="song-and-artist-container">
@@ -210,7 +209,7 @@
                             <div class="song-image-container">
                                 <p class="queue-number">09</p>
                                 <div class="image-container">
-                                    <img class="queue-song-img" src="assets/queue/shapeofyou.jpg" />
+                                    <img class="queue-song-img" src="assets/Images/Queue_Section/Queue-9.jpg" />
                                     <i class="fas play-btn fa-play"></i>
                                 </div>
                                 <div class="song-and-artist-container">
@@ -227,7 +226,7 @@
                             <div class="song-image-container">
                                 <p class="queue-number">10</p>
                                 <div class="image-container">
-                                    <img class="queue-song-img" src="assets/queue/cheapthrills.jpg" />
+                                    <img class="queue-song-img" src="assets/Images/Queue_Section/Queue-10.jpg" />
                                     <i class="fas play-btn fa-play"></i>
                                 </div>
                                 <div class="song-and-artist-container">
@@ -244,7 +243,7 @@
                             <div class="song-image-container">
                                 <p class="queue-number">11</p>
                                 <div class="image-container">
-                                    <img class="queue-song-img" src="assets/queue/roar.jpg" />
+                                    <img class="queue-song-img" src="assets/Images/Queue_Section/Queue-11.jpg" />
                                     <i class="fas play-btn fa-play"></i>
                                 </div>
                                 <div class="song-and-artist-container">
@@ -261,7 +260,7 @@
                             <div class="song-image-container">
                                 <p class="queue-number">12</p>
                                 <div class="image-container">
-                                    <img class="queue-song-img" src="assets/queue/starboy.jpg" />
+                                    <img class="queue-song-img" src="assets/Images/Queue_Section/Queue-1.jpg" />
                                     <i class="fas play-btn fa-play"></i>
                                 </div>
                                 <div class="song-and-artist-container">
@@ -288,8 +287,8 @@
                                     <label for="play-btn-checkbox1"><i class="fas latest-release-play-btn fa-play play-1"></i><i class="latest-release-pause-btn fas fa-pause pause-1"></i></label>
                                 </div>
                                 <div>
-                                    <p class="song-name">Onism</p>
-                                    <p class="date">AUG 11, 2017</p>
+                                    <p class="song-name">Kuley Kuley</p>
+                                    <p class="date">Oct 12, 2023</p>
                                 </div>
                             </div>
 
@@ -335,8 +334,8 @@
                                     <label for="play-btn-checkbox2"><i class="fas latest-release-play-btn fa-play play-2"></i><i class="latest-release-pause-btn fas fa-pause pause-2"></i></label>
                                 </div>
                                 <div>
-                                    <p class="song-name">Onism</p>
-                                    <p class="date">AUG 11, 2017</p>
+                                    <p class="song-name">Kuley Kuley</p>
+                                    <p class="date">Oct 12, 2023</p>
                                 </div>
                             </div>
 
@@ -384,8 +383,8 @@
                                     <label for="play-btn-checkbox3"><i class="fas latest-release-play-btn fa-play play-3"></i><i class="latest-release-pause-btn fas fa-pause pause-3"></i></label>
                                 </div>
                                 <div>
-                                    <p class="song-name">Onism</p>
-                                    <p class="date">AUG 11, 2017</p>
+                                    <p class="song-name">Kuley Kuley</p>
+                                    <p class="date">Oct 12, 2023</p>
                                 </div>
                             </div>
 
@@ -431,8 +430,8 @@
                                     <label for="play-btn-checkbox4"><i class="fas latest-release-play-btn fa-play play-4"></i><i class="latest-release-pause-btn fas fa-pause pause-4"></i></label>
                                 </div>
                                 <div>
-                                    <p class="song-name">Onism</p>
-                                    <p class="date">AUG 11, 2017</p>
+                                    <p class="song-name">Kuley Kuley</p>
+                                    <p class="date">Oct 12, 2023</p>
                                 </div>
                             </div>
 
