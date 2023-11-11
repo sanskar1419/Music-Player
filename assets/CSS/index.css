@@ -516,8 +516,6 @@ input[type="radio"]:checked {
   height: 1rem;
 }
 
-/* on clicking the play btns , make its height 0 (display none) */
-
 #play-btn-checkbox1:checked
   ~ .for-responsiveness
   > main
@@ -743,7 +741,7 @@ input[type="radio"]:checked {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url(../../songs/ed-sheeran.jpg);
+  background-image: url(../Images/Popular_Artist/Arijit_Singh.webp);
   background-position: center;
   background-size: 100% 100%;
   background-size: cover;
@@ -752,23 +750,23 @@ input[type="radio"]:checked {
 }
 
 .popular-artists-2 {
-  background-image: url(../../songs/cold-play.jpg) !important;
+  background-image: url(../Images/Popular_Artist/Adele.jpg) !important;
 }
 
 .popular-artists-3 {
-  background-image: url(../../songs/zayn.jpg) !important;
+  background-image: url(../Images/Popular_Artist/Neha_Kakkar.webp) !important;
 }
 
 .popular-artists-4 {
-  background-image: url(../../songs/charlie-puth.jpg) !important;
+  background-image: url(../Images/Popular_Artist/Taylor_swift.jpg) !important;
 }
 
 .popular-artists-5 {
-  background-image: url(../../songs/imagine-dragon.jpg) !important;
+  background-image: url(../Images/Popular_Artist/Udit_Narayan.jpg) !important;
 }
 
 .popular-artists-6 {
-  background-image: url(../../songs/bruno-mars.jpg) !important;
+  background-image: url(../Images/Popular_Artist/Ed_Sheeran.jpg) !important;
 }
 
 .popular-artists > a {
@@ -789,11 +787,11 @@ input[type="radio"]:checked {
   color: white;
 }
 
-/* stations */
+/* stations Section .................................................................................... */
 
 .stations-container {
   width: 100%;
-  background-color: #101743;
+  background-color: transparent;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -819,7 +817,7 @@ input[type="radio"]:checked {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url(../images/stations-img.png);
+  background-image: url(../Images/Stations/stations-img.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -850,7 +848,7 @@ input[type="radio"]:checked {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url(../images/love.jpg);
+  background-image: url(../Images/Stations/love.jpg);
   background-position: center;
   background-size: 100% 100%;
   background-size: cover;
@@ -858,23 +856,23 @@ input[type="radio"]:checked {
 }
 
 .img-2 {
-  background-image: url(../images/retro.png) !important;
+  background-image: url(../Images/Stations/retro.png) !important;
 }
 
 .img-3 {
-  background-image: url(../images/chill.jpg) !important;
+  background-image: url(../Images/Stations/chill.jpg) !important;
 }
 
 .img-4 {
-  background-image: url(../images/workout.jpg) !important;
+  background-image: url(../Images/Stations/workout.jpg) !important;
 }
 
 .img-5 {
-  background-image: url(../images/rock.jpg) !important;
+  background-image: url(../Images/Stations/rock.jpg) !important;
 }
 
 .img-6 {
-  background-image: url(../images/pop.jpg) !important;
+  background-image: url(../Images/Stations/pop.jpg) !important;
 }
 
 .stations-para {
@@ -904,7 +902,7 @@ input[type="radio"]:checked {
 .genre-img-container {
   width: 32%;
   height: 9rem;
-  background-image: url(../images/party.jpg);
+  background-image: url(../Images/Stations/party.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
@@ -933,14 +931,14 @@ input[type="radio"]:checked {
 }
 
 .genre-img-2 {
-  background-image: url("../images/electronic.jpg");
+  background-image: url("../Images/Stations/electronic.jpg");
 }
 
 .genre-img-3 {
-  background-image: url("../images/road-trip.jpg");
+  background-image: url("../Images/Stations/road-trip.jpg");
 }
 
-/* latest-english */
+/* latest-english ....................................................................................................*/
 
 .latest-english-container {
   width: 100%;
@@ -986,7 +984,7 @@ input[type="radio"]:checked {
   font-size: 0.7rem;
 }
 
-/* footer (audio player controls)*/
+/* footer (audio player controls)............................................................................................*/
 
 footer {
   position: fixed;
